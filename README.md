@@ -12,7 +12,7 @@ In order to send test template, please create `.emailwizardkey` containing api k
 You can use dockerized version right away:
 
 ```
-docker run -v `pwd`:/repo -p 9800:9800 emailwizard/emailwizard.sh
+docker run -v `pwd`:/repo -p 9800:9800 --name emailwizard emailwizard/emailwizard.sh
 ```
 
 Run above command inside any repository compatibile with email wizard.
